@@ -1,0 +1,25 @@
+{
+  "about.qmd": {
+    "about.html": "740302e0"
+  },
+  "index.qmd": {
+    "index.html": "d995b4a3"
+  },
+  "Content/intro.qmd": {
+    "intro.html": "61dd704a"
+  },
+  "Content/about.qmd": {
+    "about.html": "0b51f2f8"
+  },
+  "arabic_fluency.qmd": {
+    "arabic_fluency.html": "5a9a89ef",
+    "arabic_fluency.tex": "7a430ee4"
+  },
+  "Content/test.qmd": {
+    "test.html": "105a570b"
+  },
+  "course-material.qmd": {
+    "course-material.html": "0df54b39",
+    "course-material.tex": "c83df5f5"
+  }
+}
