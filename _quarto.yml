@@ -1,0 +1,16 @@
+project:
+  type: website
+
+website:
+  title: "Lisan Project"
+  navbar:
+    background: "#800000"  # Maroon color
+    left:
+      - text: "<i class='bi bi-house-door'></i> Home"
+        href: index.qmd
+      - text: "Course Material"
+        href: course-material.qmd
+theme:
+  light: 
+    - cosmo
+    - styles.scss

@@ -1,0 +1,86 @@
+::: {.content-hidden}
+Copyright (C) 2025 Liban Hussein
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+:::
+
+# Introduction {#sec-intro}
+
+This document is a comprehensive companion to an 8-month Arabic language learning journey based on the textbook [**_At-Takallum: A Comprehensive Modern Arabic Course_**](https://attakallum.com/attakallum-online/login).
+
+It serves as a central hub for:
+
+- **Detailed study notes**  
+- **Thematic and contextual vocabulary lists**  
+- **Practice exercises** for grammar, reading, writing, listening, and speaking  
+- **Supplementary resources** for cultural and religious enrichment  
+- **Tracking overall progression** across all learning levels
+
+The learning journey is divided into three stages, each aligned with a CEFR proficiency level and structured around thematic chapters designed to gradually build language skills in context.
+
+---
+
+## Elementary Level (A1 Proficiency)
+
+The **Elementary Book** consists of 8 foundational chapters focused on everyday communication and basic vocabulary:
+
+1. **Greetings and Introductions**  
+2. **Family and Relationships**  
+3. **School and Studies**  
+4. **Food and Eating Habits**  
+5. **Telling Time and Discussing Prices**  
+6. **Holidays and Vacations**  
+7. **Daily Routines and Activities**  
+8. **Weather and Clothing**
+
+---
+
+## Pre-Intermediate Level (B1 Proficiency)
+
+The **Pre-Intermediate Book** continues with more complex sentence structures and a wider vocabulary, divided into the following 8 thematic units:
+
+1. **Exploring Cairo and Transportation**  
+2. **Housing and Daily Living**  
+3. **Health and Well-being**  
+4. **Shopping and Markets**  
+5. **Jobs and the Workplace**  
+6. **Tourist Attractions and Historical Sites**  
+7. **Sports and Hobbies**  
+8. **Past Memories and Storytelling**
+
+---
+
+## Intermediate Level (B2 Proficiency)
+
+The **Intermediate Book** builds toward fluency, focusing on abstract topics and culturally rich discussions:
+
+1. **Describing People and Character Traits**  
+2. **Religious Celebrations and Eid Traditions**  
+3. **Humor and Storytelling**  
+4. **Nature and Environmental Issues**  
+5. **World Cultures and Social Traditions**  
+6. **Arabic Proverbs, Sayings, and Wisdom**  
+7. **Famous Historical Figures**  
+8. **The Role of Education and Learning**
+
+---
+
+### Materials and Resources
+
+- Supplementary notes, vocabulary decks, and grammar exercises  
+- Cultural and religious content to enrich learning context
+- Translation practice using classical texts
+
+::: {.callout-important title="Note"}
+This document will evolve over time to reflect ongoing progress, feedback, and new materials. Contributions and suggestions are welcome.
+:::
