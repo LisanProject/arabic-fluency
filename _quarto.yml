@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  
+
 website:
   title: "Lisan Project"
   navbar:
@@ -11,7 +11,16 @@ website:
         href: index.qmd
       - text: "Course Material"
         href: course-material.qmd
+
 theme:
   light: 
     - cosmo
     - styles.scss
+
+# PDF configuration for Arabic support
+format:
+  pdf:
+    latex-engine: xelatex
+    include-in-header: Content/arabic-setup.tex
+    mainfont: "Amiri"
+    lang: ar
