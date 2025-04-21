@@ -11,14 +11,16 @@ website:
         href: index.qmd
       - text: "Course Material"
         href: course-material.qmd
+    right:
+      - icon: github
+        href: https://github.com/yourusername/your-repo-name
+        aria-label: GitHub
 
 format:
-  pdf:
-    latex-engine: xelatex
-    include-in-header: Content/arabic-setup.tex
-    mainfont: Amiri
-
-theme:
-  light:
-    - cosmo
-    - styles.scss
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toggle: 
+      - light: Light
+        dark: Dark

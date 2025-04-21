@@ -22,5 +22,8 @@
   "course-material.qmd": {
     "course-material.html": "0df54b39",
     "course-material.tex": "c83df5f5"
+  },
+  "Content/minimal.qmd": {
+    "minimal.tex": "56e9c146"
   }
 }

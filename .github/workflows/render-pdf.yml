@@ -1,25 +1,24 @@
-name: Render Arabic PDFs
+name: Render PDF
 
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
-  build:
+  render:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Install TeX Live + Arabic Support
+      - name: Install LaTeX + Fonts
         run: |
-          sudo apt update
-          sudo apt install -y texlive-xetex texlive-lang-arabic texlive-fonts-extra fonts-amiri
+          sudo apt-get update
+          sudo apt-get install -y texlive-xetex fonts-amiri
 
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render PDFs
         run: |
-          quarto render Content/_sec_Chapter3_Studying.qmd --to pdf
+          quarto render Content/ --to pdf
