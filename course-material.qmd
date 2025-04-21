@@ -33,3 +33,5 @@ format:
 {{< include Content/_sec_Chapter1_Introductions.qmd >}}
 
 {{< include Content/_sec_Chapter2_Family.qmd >}}
+
+{{< include Content/_sec_Chapter3_Studying.qmd >}}
