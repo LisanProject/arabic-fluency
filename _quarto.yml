@@ -5,22 +5,20 @@ project:
 website:
   title: "Lisan Project"
   navbar:
-    background: "#800000"  # Maroon color
+    background: "#800000"
     left:
       - text: "<i class='bi bi-house-door'></i> Home"
         href: index.qmd
       - text: "Course Material"
         href: course-material.qmd
 
-theme:
-  light: 
-    - cosmo
-    - styles.scss
-
-# PDF configuration for Arabic support
 format:
   pdf:
     latex-engine: xelatex
     include-in-header: Content/arabic-setup.tex
-    mainfont: "Amiri"
-    lang: ar
+    mainfont: Amiri
+
+theme:
+  light:
+    - cosmo
+    - styles.scss
