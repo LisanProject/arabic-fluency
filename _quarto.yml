@@ -13,7 +13,7 @@ website:
         href: course-material.qmd
     right:
       - icon: github
-        href: https://lisanproject.github.io/arabic-fluency/
+        href: https://github.com/LisanProject/arabic-fluency
         aria-label: GitHub
 
 format:
