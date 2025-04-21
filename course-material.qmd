@@ -6,7 +6,7 @@ author:
     roles: "Author & Learner"
     affiliation:
       - name: Lisan Project
-        url: https://github.com/LisanProject
+        url: https://github.com/LisanProject/arabic-fluency
 date: last-modified
 license: "CC BY-NC 4.0"
 copyright:
