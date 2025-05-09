@@ -127,8 +127,8 @@ companionship of a teacher, and a long time.”*
 
 ::: {.callout-note title="Review Checklist"}
 
-✅ Master classroom objects and directions  
-✅ Use present tense verbs in context  
-✅ Build common study-related phrases  
-✅ Practice dialogue with school vocabulary 
+- [ ] Master classroom objects and directions  
+- [ ] Use present tense verbs in context  
+- [ ] Build common study-related phrases  
+- [ ] Practice dialogue with school vocabulary 
 :::

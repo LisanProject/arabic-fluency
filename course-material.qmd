@@ -37,3 +37,5 @@ format:
 {{< include Content/_sec_Chapter3_Studying.qmd >}}
 
 {{< include Content/_sec_Chapter4_Food.qmd >}}
+
+{{< include Content/_sec_Chapter5_Times_and_Prices.qmd >}}

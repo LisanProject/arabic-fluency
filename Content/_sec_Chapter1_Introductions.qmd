@@ -201,12 +201,12 @@ Mix masculine and feminine forms!
 ::: {.callout-note title="Review Checklist"}
 Before moving on, make sure you can:
 
-✅ Introduce yourself in Arabic  
-✅ Ask and answer where someone is from  
-✅ Use singular pronouns correctly  
-✅ Identify masculine and feminine nationalities  
-✅ Form simple present-tense sentences with key verbs  
-✅ Ask for basic personal info: name, address, phone, job
+- [ ] Introduce yourself in Arabic  
+- [ ] Ask and answer where someone is from  
+- [ ] Use singular pronouns correctly  
+- [ ] Identify masculine and feminine nationalities  
+- [ ] Form simple present-tense sentences with key verbs  
+- [ ] Ask for basic personal info: name, address, phone, job
 :::
 
 ::: {.callout-tip title="A Scholar's Reflection"}

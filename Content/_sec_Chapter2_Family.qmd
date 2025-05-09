@@ -119,11 +119,11 @@ Try conjugating and writing present-tense sentences using these verbs: **يَس�
 
 ::: {.callout-note title="Review Checklist"}
 
-✅ Identify and name family members  
-✅ Use verbs in present tense to describe family life  
-✅ Talk about marital status and relatives  
-✅ Describe who lives where  
-✅ Use feminine and masculine forms correctly  
+- [ ] Identify and name family members  
+- [ ] Use verbs in present tense to describe family life  
+- [ ] Talk about marital status and relatives  
+- [ ] Describe who lives where  
+- [ ] Use feminine and masculine forms correctly  
 
 
 :::

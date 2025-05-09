@@ -176,11 +176,11 @@ Try answering in Arabic:
 
 ::: {.callout-note title="Review Goals"}
 
-✅ Use common food vocabulary  
-✅ Order at a restaurant in Arabic  
-✅ Conjugate “eat” and “drink” with pronouns  
-✅ Ask for the bill, the menu, or water  
-✅ Know useful utensils and table items  
-✅ Practice a restaurant dialogue
+- [ ] Use common food vocabulary  
+- [ ] Order at a restaurant in Arabic  
+- [ ] Conjugate “eat” and “drink” with pronouns  
+- [ ] Ask for the bill, the menu, or water  
+- [ ] Know useful utensils and table items  
+- [ ] Practice a restaurant dialogue
 
 :::
