@@ -1,8 +1,8 @@
-# Chapter 5: Times & Prices
+# الأوقات والأسعار - Times and Prices 
 
-## Vocabulary
+Time and money shape much of our daily life and planning. In this unit, you'll learn how to tell time, understand prices and currency, and talk about schedules, appointments, and travel plans—all essential skills for navigating everyday situations in Arabic.
 
-
+## Key Vocabulary and Phrases
 | English                        | Arabic                     |
 |-------------------------------|----------------------------|
 | Time, appointed time          | مُوْعِد / وَقْت            |
