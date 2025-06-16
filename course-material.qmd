@@ -25,10 +25,6 @@ format:
     pdf-engine: xelatex
     keep-tex: true
 ---
-
-
-{{< include index.qmd >}}
-
 {{< include Content/_sec_intro.qmd >}}
 
 {{< include Content/_sec_Chapter1_Introductions.qmd >}}
