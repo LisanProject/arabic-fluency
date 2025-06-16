@@ -1,0 +1,134 @@
+# الدِّرَاسَة – Studying {#unit3-studying}
+
+Education is a major part of life across cultures, and in Arabic, knowing how to talk about school, subjects, and study routines helps you connect and express yourself in academic and personal settings.
+
+---
+
+## Key Vocabulary and Phrases
+
+| English                    | Arabic                                  |
+|----------------------------|-----------------------------------------|
+| Class, grade               | صَفّ                                     |
+| Display screen             | شَاشَةُ عَرْض                            |
+| Eraser                     | مِمْحَاة                                 |
+| Wastebasket                | سَلَّةُ مُهْمَلَات                       |
+| School                     | مَدْرَسَة                                |
+| Bookshelf                  | مَكْتَبَة                                |
+| Dictionary                 | قَامُوس / مُعْجَم                        |
+| Absent / Present           | غَائِب × حَاضِر                          |
+| Page                       | صَفْحَة                                  |
+| Behind / At the back       | خَلْف / وَرَاء                           |
+| Between                    | بَيْن                                   |
+| Beside                     | بِجَانِب                                 |
+| Under                      | تَحْت / أَسْفَل                          |
+| To the right               | عَنْ يَمِين                              |
+| To the left                | عَنْ يَسَار                              |
+| University                 | جَامِعَة                                 |
+| Faculty                    | كُلِّيَّة                                |
+| Good / Bad                 | جَيِّد × سَيِّئ                          |
+| Arabic language            | اللُّغَة العَرَبِيَّة                    |
+| English language           | اللُّغَة الإِنْجِلِيزِيَّة               |
+| Vacation / Holiday         | عُطْلَة                                  |
+
+---
+
+## Verbs and Phrases for the Classroom
+
+| English                    | Arabic                                  |
+|----------------------------|-----------------------------------------|
+| He studies                 | يَدْرُس                                  |
+| He thinks                 | يُفَكِّر                                 |
+| He guesses                | يَظُنّ                                   |
+| He starts                 | يَبْدَأ                                  |
+| He finishes               | يَنْتَهِي                                |
+| He opens / He closes      | يَفْتَح × يُغْلِق                         |
+| Raise / Lower             | اِرْفَع × اِخْفِض                        |
+| Take / Here you go        | خُذ / تَفَضَّل                           |
+| Let me have               | هَات                                     |
+| Lesson / Lecture          | دَرْس / مُحَاضَرَة                       |
+| Course / Subject          | مَادَّة (ج) مَوَادّ                      |
+| Idea / Opinion            | فِكْرَة / رَأْي                          |
+| Psychology                | عِلْم النَّفْس                           |
+| Jurisprudence             | الْفِقْه                                 |
+| Qur’an explanation        | التَّفْسِير                              |
+| Hadith                    | الْحَدِيث                                |
+| Recitation rules          | التَّجْوِيد                              |
+| History                   | التَّارِيخ                               |
+| Geography                 | الْجُغْرَافْيَا                          |
+
+---
+
+## Practice Phrases
+
+::: {.callout-note title="Try This!"}
+
+Translate the following into Arabic using the vocabulary above:
+
+1. I study psychology and jurisprudence.  
+2. The dictionary is beside the bookshelf.  
+3. Open the book to page ten.  
+4. She is present today.  
+5. My course is very interesting.  
+6. He finishes his lesson at two o'clock.  
+7. The subject is difficult but useful.  
+8. Where is the eraser?  
+9. We are studying the Arabic language.  
+10. The classroom is to the right.
+
+:::
+
+---
+
+::: {.callout-caution title="Click to Practice a Dialogue" collapse="true"}
+
+## Practice: In the Classroom
+
+**Zayd:** Are you studying today?  
+**Nour:** Yes, I am studying history and psychology.  
+**Zayd:** Is the teacher present?  
+**Nour:** No, he is absent today.  
+**Zayd:** Where is your book?  
+**Nour:** It’s on the bookshelf, beside the dictionary.  
+**Zayd:** Do you like this course?  
+**Nour:** Yes, it’s good and interesting.  
+
+:::
+
+---
+
+## Verb Practice With the Studying Theme
+
+| Pronoun     | Example Verb + Classroom Context                         |
+|-------------|----------------------------------------------------------|
+| أَنَا       | أَنَا أَدْرُسُ التَّفْسِير – I study tafsīr             |
+| أَنْتَ       | أَنْتَ تَفْتَحُ الكِتَاب – You open the book             |
+| أَنْتِ       | أَنْتِ تَفْهَمِينَ الدَّرْس – You (f) understand the lesson |
+| هُوَ         | هُوَ يَبْدَأُ الدَّرْس – He starts the lesson           |
+| هِيَ         | هِيَ تُفَكِّرُ فِي الْجَوَاب – She is thinking of the answer |
+
+---
+
+::: {.callout-tip title="A Scholar's Reflection"}
+
+**"أَخي لَنْ تَنَالَ الْعِلْمَ إِلَّا بِسِتَّةٍ  
+سَأُنْبِيكَ عَنْ تَفْصِيلِهَا بِبَيَانِ  
+ذَكَاءٍ، وَحِرْصٍ، وَاجْتِهَادٍ، وَبُلْغَةٍ  
+وَصُحْبَةِ أُسْتَاذٍ، وَطُولِ زَمَانِ"**  
+*“My brother, you will never attain knowledge except with six things.  
+I will tell you about them clearly:  
+intelligence, eagerness, effort, provision,  
+companionship of a teacher, and a long time.”*  
+— **Imām al-Shāfiʿī**, on the path to knowledge
+
+:::
+
+
+---
+
+::: {.callout-note title="Review Checklist"}
+
+- [ ] Master classroom objects and directions  
+- [ ] Use present tense verbs in context  
+- [ ] Build common study-related phrases  
+- [ ] Practice dialogue with school vocabulary 
+:::

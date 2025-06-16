@@ -1,0 +1,114 @@
+# الأوقات والأسعار - Times and Prices 
+
+Time and money shape much of our daily life and planning. In this unit, you'll learn how to tell time, understand prices and currency, and talk about schedules, appointments, and travel plans—all essential skills for navigating everyday situations in Arabic.
+
+## Key Vocabulary and Phrases
+| English                        | Arabic                     |
+|-------------------------------|----------------------------|
+| Time, appointed time          | مُوْعِد / وَقْت            |
+| It’s 1 o’clock sharp          | الوَاحِدَة تَمَامًا         |
+| Fifteen minutes to …          | إِلَّا رُبْعًا               |
+| Twenty minutes to …           | إِلَّا ثُلْثًا               |
+| Half past …                   | وَالنِّصْف                  |
+| Employee                      | مُوَظَّف                     |
+| Ticket                        | تَذْكِرَة سَفَر               |
+| Airline office                | مَكْتَب الطَّيَرَان           |
+| By day × By night             | نَهَارًا × لَيْلًا           |
+| Quarter past …                | وَالرُّبْع                   |
+| An hour - a minute - a second | سَاعَة - دَقِيقَة - ثَانِيَة |
+| Airport                       | مَطَار                       |
+| Plane, airplane               | طَائِرَة                     |
+| Train                         | قِطَار                       |
+| Bus                           | حَافِلَة                     |
+| Twenty past …                 | وَالثُّلْث                   |
+| New × Old                     | جَدِيد × قَدِيم             |
+| (She) goes                    | تَذْهَب                      |
+| (He) sleeps                   | يَنَام                       |
+| (She) arrives at              | تَصِلُ                       |
+| In the morning × In the evening | صَبَاحًا × مَسَاءً        |
+| The next × The previous       | التَّالِي × السَّابِق        |
+| Before noon × In the afternoon | قَبْلَ الظُّهْر × بَعْدَ الظُّهْر |
+
+### Currency & Exchange
+
+| English              | Arabic               |
+|---------------------|----------------------|
+| Late × Early        | مُتَأَخِّر × مُبَكِّر  |
+| Exchange office     | مَكْتَب الصِّرَافَة     |
+| Rate                | سِعْر (ج) أَسْعَار      |
+| US dollar           | دُوْلَار أَمْرِيكِي     |
+| Euro                | يُورُو                 |
+| Pound sterling      | جُنَيْه إِنْجِلِيزِي    |
+| Egyptian pound      | جُنَيْه مِصْرِي         |
+| Japanese yen        | يِن يَابَانِي           |
+| Saudi riyal         | رِيَال سَعُودِي         |
+| UAE dirham          | دِرْهَم إِمَارَاتِي      |
+| Kuwaiti dinar       | دِينَار كُوَيْتِي        |
+| Currency            | عُمْلَة (ج) عُمْلَات    |
+| Money, cash         | نُقُود                 |
+| Turkish lira        | لِيرَة تُرْكِيَّة        |
+| Change              | نُقُود                 |
+
+### Banking & Counting
+
+| English              | Arabic               |
+|---------------------|----------------------|
+| (He) exchanges       | يُبَدِّل              |
+| (He) counts          | يَعُدُّ               |
+| Bank                 | بَنْك / مَصْرِف        |
+| Central bank         | البَنْك المَرْكَزِي    |
+| Fifty piasters       | نِصْف جُنَيْه         |
+| Twenty-five piasters | رُبْع جُنَيْه         |
+
+### Prayer Times
+
+| English            | Arabic               |
+|-------------------|----------------------|
+| Prayer Times      | مَوَاقِيتُ الصَّلَاة  |
+| Adhan             | الأَذَان              |
+| Dawn prayer       | الفَجْر               |
+| Sunrise prayer    | الشُّرُوق             |
+| Noon prayer       | الظُّهْر              |
+| Afternoon prayer  | العَصْر               |
+| Sunset prayer     | المَغْرِب             |
+| Evening prayer    | العِشَاء             |
+
+---
+
+## Translation Practice
+
+::: {.callout-note title="Translate the following into Arabic"}
+1. I go to the airport at one o'clock sharp.
+2. The bus arrives at a quarter past four.
+3. He exchanges money at the bank.
+4. The prayer times are written on the wall.
+5. I sleep at night and go to work in the morning.
+6. The price of the ticket is ten dollars.
+7. I want to buy twenty-five piasters of change.
+:::
+
+---
+
+## Practice Conjugation
+
+::: {.callout-tip title="Verb Practice: Conjugate"}
+Practice conjugating these important verbs across pronouns:
+
+- ذَهَبَ (to go)
+- نَامَ (to sleep)
+- وَصَلَ (to arrive)
+- بَدَّلَ (to exchange)
+- عَدَّ (to count)
+
+Try writing full sentences using each form.
+:::
+
+---
+
+::: {.callout-note title="Review Checklist"}
+
+- [ ] Memorized all vocabulary in time, transport, and money
+- [ ] Can tell time using quarter/half/twenty expressions
+- [ ] Know names of prayer times
+- [ ] Can form basic sentences about time and prices
+- [ ] Can conjugate essential verbs from this chapter

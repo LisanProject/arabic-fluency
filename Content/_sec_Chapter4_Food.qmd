@@ -1,0 +1,186 @@
+# الطَّعَام – Food and Meals {#unit4-food}
+
+In this chapter, we explore everything related to food and meals in Arabic — from ordering at a restaurant to naming common foods and drinks. You'll also practice useful verbs and sentence structures for daily eating routines.
+
+---
+
+::: {.callout-tip title="Watch This!"}
+Need help remembering all this new vocabulary?  
+Check out this video:  
+[How to Memorize Arabic Vocabulary Fast!](https://www.youtube.com/watch?v=TZYOScgVc3g&t)
+:::
+
+## Key Vocabulary and Phrases
+
+| English             | Arabic                     |
+|---------------------|----------------------------|
+| Meal                | وَجْبَة (ج) وَجَبَات       |
+| Breakfast           | الْفَطُور                   |
+| Lunch               | الغَدَاء                   |
+| Dinner              | العَشَاء                   |
+| Full, satisfied     | شَبْعَان                    |
+| Hungry              | جَائِع                      |
+| Thirsty             | عَطْشَان / ظَمْآن           |
+| Sated (not thirsty) | رَيَّان                    |
+| Before / After      | قَبْل / بَعْد              |
+| Hot / Cold          | سَاخِن / بَارِد            |
+| Fruits              | فَاكِهَة (ج) فَوَاكِه       |
+| Vegetables          | خُضَار                      |
+| Chicken             | دَجَاجَة (ج) دَجَاج         |
+| Fish                | سَمَك                       |
+| Bread               | خُبْز                       |
+| Meat                | لَحْم (ج) لُحُوم           |
+| Rice                | أُرْز                        |
+| Eggs                | بَيْض                       |
+| Cheese              | جُبْن                       |
+| Yoghurt             | زَبَادِي                    |
+| Pickles             | مُخَلَّل / طُرْشِي         |
+| Honey               | عَسَل                       |
+| Dessert             | حَلْوَى                     |
+| Falafel             | فَلاَفِل / طَعْمِيَّة       |
+| Tea                 | شَاي                        |
+| Coffee              | قَهْوَة                     |
+| Juice               | عَصِير (ج) عَصَائِر         |
+| Milk                | لَبَن / حَلِيب             |
+| Water               | مَاء (ج) مِيَاه            |
+| Sugar               | سُكَّر                      |
+| Jam                 | مُرَبَّى                    |
+| Butter              | زُبْدَة                     |
+| Olives              | زَيْتُون                    |
+
+---
+
+## At the Restaurant
+
+| English             | Arabic                     |
+|---------------------|----------------------------|
+| Restaurant          | مَطْعَم                     |
+| Waiter              | نَادِل / عَامِل الْمَطْعَم   |
+| Menu                | قَائِمَة الطَّعَام           |
+| Bill / Check        | الحِسَاب                    |
+| Change              | البَاقِي                    |
+| Customer            | زَبُون                      |
+| Reserved / Vacant   | مَحْجُوز / خَالٍ            |
+| Table               | مَائِدَة / طَاوِلَة         |
+| Glass / Cup         | كُوب / فِنْجَان / كَأْس      |
+| Plate               | طَبَق                       |
+| Spoon / Fork / Knife| مِلْعَقَة / شَوْكَة / سِكِّين |
+| Napkin              | مِنْدِيل وَرَقِي             |
+| Water bottle        | زُجَاجَة مَاء               |
+| Carbonated water    | مِيَاه غَازِيَّة           |
+| Lemon juice         | عَصِير لَيْمُون             |
+| Fried potatoes      | بَطَاطِس مَقْلِيَّة         |
+| Kebab / Kofta       | كَبَاب مَشْوِي / كُفْتَة    |
+| Shrimp              | جَمْبَرِي                   |
+| Soup                | حَسَاء                      |
+
+---
+
+::: {.callout-note title="Try This!"}
+
+Translate the following using the vocabulary above:
+
+1. I want a chicken sandwich.  
+2. I am thirsty — I want lemon juice.  
+3. Where is the restaurant?  
+4. The coffee is hot.  
+5. The salad is cold.
+
+:::
+
+## Useful Verbs with Food
+
+| Arabic Verb         | English                     |
+|---------------------|-----------------------------|
+| يَأْكُل             | He eats                     |
+| يَتَنَاوَل          | He has / consumes (a meal)  |
+| يَشْرَب             | He drinks                   |
+| يُرِيد              | He wants                    |
+| يُنَادِي            | He calls (the waiter)       |
+| تَطْلُب             | You order / request         |
+
+### Example Sentences:
+
+- أَنَا أَتَنَاوَلُ الْفَطُورَ فِي السَّاعَةِ السَّابِعَةِ.  
+  *I eat breakfast at 7:00.*
+
+- هُوَ يَشْرَبُ الشَّايَ وَالْقَهْوَةَ.  
+  *He drinks tea and coffee.*
+
+- نُرِيدُ قَائِمَةَ الطَّعَامِ، مِنْ فَضْلِكَ.  
+  *We would like the menu, please.*
+
+---
+
+::: {.callout-caution title="Click to Practice a Conversation" collapse="true"}
+
+## Dialogue: At the Restaurant
+
+**Waiter:** Welcome!  
+**Customer:** Thank you. Is this table free?  
+**Waiter:** No, it’s reserved. But this one is free.  
+**Customer:** Thank you. Can I see the menu?  
+**Waiter:** Of course. Here you go.  
+**Customer:** I want grilled fish and lemon juice.  
+**Waiter:** Anything else?  
+**Customer:** No, thank you.  
+**Waiter:** The bill, sir?  
+**Customer:** Yes, here you go. Keep the change.  
+**Waiter:** Thank you very much!
+
+:::
+
+---
+
+## Verb Practice with Singular Pronouns
+
+Let’s look at **يَأْكُلُ** (he eats) and **يَشْرَبُ** (he drinks) across the singular pronouns:
+
+| Pronoun     | Eat = يَأْكُل | Drink = يَشْرَب |
+|-------------|---------------|-----------------|
+| أَنَا       | آكُلُ         | أَشْرَبُ         |
+| أَنْتَ       | تَأْكُلُ       | تَشْرَبُ         |
+| أَنْتِ       | تَأْكُلِينَ     | تَشْرَبِينَ       |
+| هُوَ         | يَأْكُلُ       | يَشْرَبُ         |
+| هِيَ         | تَأْكُلُ       | تَشْرَبُ         |
+
+> Note: These verbs are irregular in the past tense but regular in the present.
+
+---
+
+::: {.callout-note title="Quick Questions"}
+
+Try answering in Arabic:
+
+1. مَاذَا تُرِيدُ لِلغَدَاءِ؟ – What do you want for lunch?  
+2. هَلْ تُرِيدُ مَاءً أَوْ عَصِيرًا؟ – Do you want water or juice?  
+3. أَيْنَ الْمَطْعَم؟ – Where is the restaurant?  
+4. مَا هَذِهِ الْوَجْبَة؟ – What is this meal?
+
+:::
+
+---
+
+::: {.callout-tip title="A Scholar's Reflection"}
+**قَالَ الإِمَامُ الشَّافِعِيُّ:**  
+*"مَا شَبِعْتُ مُنْذُ سِتَّةَ عَشَرَ سَنَةً، لِأَنَّ الشِّبَعَ يُثَقِّلُ الْبَدَنَ، وَيُقَسِّي الْقَلْبَ، وَيُزِيلُ الْفِطْنَةَ، وَيَجْلِبُ النُّعَاسَ، وَيُضْعِفُ صَاحِبَهُ عَنِ الْعِبَادَةِ."*
+
+*“I have not eaten to fullness for sixteen years, because satiety burdens the body, hardens the heart, removes sharpness of mind, brings on sleep, and weakens one from worship.”*
+
+— **Imām al-Shāfiʿī**
+:::
+
+---
+
+## Quick Review Checklist
+
+::: {.callout-note title="Review Goals"}
+
+- [ ] Use common food vocabulary  
+- [ ] Order at a restaurant in Arabic  
+- [ ] Conjugate “eat” and “drink” with pronouns  
+- [ ] Ask for the bill, the menu, or water  
+- [ ] Know useful utensils and table items  
+- [ ] Practice a restaurant dialogue
+
+:::

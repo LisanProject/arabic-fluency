@@ -1,0 +1,129 @@
+# الْعَائِلَة – The Family {#unit2-family}
+
+Family is the foundation of many conversations in Arabic. In this unit, you'll learn how to introduce your family members, describe relationships, and talk about where people live and what they do.
+
+---
+
+## Key Vocabulary and Phrases
+
+| English                    | Arabic                                  |
+|----------------------------|-----------------------------------------|
+| Family / Household         | أُسْرَة / عَائِلَة                        |
+| Grandfather                | جَدّ                                     |
+| Grandmother                | جَدَّة                                    |
+| Father / Parent            | أَب / وَالِد                             |
+| Mother / Parent            | أُمّ / وَالِدَة                           |
+| Brother                    | أَخ                                      |
+| Sister                     | أُخْت                                     |
+| Son / Daughter             | اِبْن / اِبْنَة                           |
+| Boy / Girl                 | وَلَد / بِنْت                             |
+| Grandson / Granddaughter   | حَفِيد / حَفِيدَة                          |
+| Twin brother               | أَخ تَوْأَم                               |
+| Paternal uncle             | عَمّ                                     |
+| Maternal uncle             | خَال                                     |
+| Paternal aunt              | عَمَّة                                   |
+| Maternal aunt              | خَالَة                                   |
+| Husband / Wife             | زَوْج / زَوْجَة                           |
+| Relative / Kin             | قَرِيب / أَقَارِب                         |
+| Father-in-law / Mother-in-law | حَم / حَمَاة                          |
+| Married                    | مُتَزَوِّج / مُتَزَوِّجَة                  |
+| Fiancé / Fiancée           | خَاطِب / مَخْطُوبَة                       |
+| Bachelor (unmarried)       | عَزَب                                     |
+| Miss / Young lady          | آنِسَة                                    |
+| Surname / Title            | لَقَب / أَلْقَاب                          |
+
+---
+
+## Talking About Daily Life
+
+| English                    | Arabic                                  |
+|----------------------------|-----------------------------------------|
+| He lives in…               | يَسْكُنُ فِي…                            |
+| She studies                | تَدْرُس                                 |
+| He loves / likes           | يُحِبُّ                                  |
+| He comments                | يُعَلِّق                                 |
+| He receives / meets        | يَسْتَقْبِل                              |
+| He prepares / makes ready  | يُرَتِّب                                 |
+| She cooks                  | تَطْبُخ                                  |
+| He sits / sits down        | يَجْلِس                                  |
+
+---
+
+## Practice Phrases
+
+::: {.callout-note title="Try This!"}
+
+Translate the following into Arabic using the vocabulary above:
+
+1. My mother and father live in Cairo.
+2. He is my maternal uncle.
+3. My sister is a student.
+4. She loves her grandmother.
+5. I am married.
+6. He is a bachelor.
+7. This is my wife and these are our children.
+8. Where does your grandfather live?
+9. She studies in the university.
+10. My aunt (paternal) cooks delicious food.
+
+:::
+
+## Special Occasions & Home Life
+
+| English                    | Arabic                                  |
+|----------------------------|-----------------------------------------|
+| Bride / Bridegroom         | عَرُوس / عَرِيس                          |
+| Food                       | طَعَام                                   |
+| Road / Street              | طَرِيق                                   |
+| Decoration                 | زِينَة                                   |
+| Guests                     | ضُيُوف / ضَيْف                           |
+| Salon / Reception Room     | صَالُون                                  |
+| Furniture                  | أَثَاث                                   |
+
+---
+
+::: {.callout-caution title="Click to Practice a Dialogue" collapse="true"}
+
+## Practice: Talking About Family
+
+**Ahmed:** Hello! Who is this?  
+**Fatimah:** This is my father and mother.  
+**Ahmed:** What is your father's name?  
+**Fatimah:** His name is Yusuf.  
+**Ahmed:** Does he work?  
+**Fatimah:** Yes, he works as a teacher.  
+**Ahmed:** And your mother?  
+**Fatimah:** She cooks and takes care of the house.  
+**Ahmed:** Do you have any siblings?  
+**Fatimah:** Yes, I have one brother and two sisters.  
+**Ahmed:** Where do you live?  
+**Fatimah:** We live in Tripoli.  
+
+:::
+
+---
+
+## Verb Practice With the Family Theme
+
+Try conjugating and writing present-tense sentences using these verbs: **يَسْكُن، يُحِب، يُرَتِّب، تَدْرُس، تَطْبُخ**
+
+| Pronoun     | Example Verb + Family Context                        |
+|-------------|------------------------------------------------------|
+| أَنَا       | أَنَا أُحِبُ جَدَّتِي – I love my grandmother       |
+| أَنْتَ       | أَنْتَ تَسْكُنُ مَعَ أُسْرَتِكَ – You live with your family |
+| أَنْتِ       | أَنْتِ تَدْرُسِينَ فِي الْجَامِعَة – You (f) study at the university |
+| هُوَ         | هُوَ يُرَتِّبُ الْغُرْفَة – He arranges the room      |
+| هِيَ         | هِيَ تَطْبُخُ الطَّعَام – She cooks the food         |
+
+---
+
+::: {.callout-note title="Review Checklist"}
+
+- [ ] Identify and name family members  
+- [ ] Use verbs in present tense to describe family life  
+- [ ] Talk about marital status and relatives  
+- [ ] Describe who lives where  
+- [ ] Use feminine and masculine forms correctly  
+
+
+:::

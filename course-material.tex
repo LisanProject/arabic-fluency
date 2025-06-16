@@ -1,0 +1,1619 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  a4paper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Arabic Fluency Roadmap},
+  pdfauthor={Liban Hussein},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Arabic Fluency Roadmap}
+\author{Liban Hussein}
+\date{2025-06-16}
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+
+\section{Arabic Fluency Roadmap: A Structured Guide to B2 in 8
+Months}\label{arabic-fluency-roadmap-a-structured-guide-to-b2-in-8-months}
+
+\textbf{(c) 2025 Liban Hussein}
+
+\textbf{Ahlan}! This guide provides a detailed breakdown of the topics
+and vocabulary you'll master to reach B2 proficiency---enabling fluency
+in complex discussions, media analysis, and professional contexts.
+
+I remember the first time I tried to speak Arabic outside the mosque- my
+mind went completely blank. I could recite and undestand Qur'an, but
+asking friends about a sports match they watched or discussing events in
+Arabic? Total disaster. For years, I've been stuck in this weird middle
+ground - classical texts make sense, but casual conversations felt
+impossible to engage in. It's frustrating when your brain knows the
+language but your mouth refuses to cooperate.
+
+\textbf{Here's the truth I've learned:} Understanding Arabic and
+speaking it fluently are two completely different skills. And I've
+neglected the speaking part for too long. This guide is my public
+commitment to change that. No more hiding behind passive understanding.
+No more avoiding conversations. By \textbf{December 's end, 2025},
+insha'Allah:
+
+\textbf{My goals are to:}
+
+\begin{itemize}
+\tightlist
+\item
+  Speak spontaneously without mental translation
+\item
+  Conjugate verbs correctly in real-time conversations
+\item
+  Discuss complex topics beyond just religion
+\item
+  Translate short classical texts, including works and poems by Imām
+  al-Shāfiʿī
+  {[}\href{https://www.noor-book.com/en/ebook-\%D8\%AF\%D9\%8A\%D9\%88\%D8\%A7\%D9\%86-\%D8\%A7\%D9\%84\%D8\%A7\%D9\%85\%D8\%A7\%D9\%85-\%D8\%A7\%D9\%84\%D8\%B4\%D8\%A7\%D9\%81\%D8\%B9\%D9\%8A-pdf}{\textbf{Diwan
+  al-Shāfiʿī}}{]}
+\item
+  Recite and understand portions of the Qur'an, ḥadīth, and duʿāʾ with
+  insight into their grammar and rhetorical style
+\item
+  Write short essays and reflections in Arabic on Islamic and cultural
+  topics
+\item
+  Participate in discussions and lessons conducted fully in Arabic
+\item
+  Finally feel confident calling myself fluent --- as a student of the
+  language of the Qur'an
+\end{itemize}
+
+\textbf{This isn't about perfection. It's about bridging the gap between
+what I understand and what I can express. That's the mission of the
+Lisan Project.}
+
+\textbf{What's Inside the Lisan Project Roadmap:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Grammar Foundations}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Verb conjugations (past/present/command), noun gender/plural rules,
+    sentence structures.
+  \end{itemize}
+\item
+  \textbf{Core Vocabulary by Theme}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Daily life (family, work, travel), Islamic terms, media Arabic, and
+    academic phrases.
+  \end{itemize}
+\item
+  \textbf{Key Skills per Level}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{A1-A2:} Basic dialogues, introductions, and high-frequency
+    verbs.
+  \item
+    \textbf{B1-B2:} Complex sentences, opinions, and cultural nuances.
+  \item
+    \textbf{C1 Mastery:} Critiquing texts, understanding dialects in
+    media, and formal writing.
+  \end{itemize}
+\item
+  \textbf{Thematic Chapters}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Household items, professions, health, holidays, etc.---each with
+    targeted word lists.
+  \end{itemize}
+\end{enumerate}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{\textbf{Quote}}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\textbf{``العلم لا يُعطِيكَ بعضَهُ حتّى تُعطِيَهُ كلَّك، فإذا أعطَيتَهُ كلَّك، أعطاكَ
+بعضَهُ''}
+
+\emph{``Knowledge will not give you part of itself until you give it all
+of yourself. And when you give it all of yourself, it will still only
+give you part of itself.''}
+
+\end{tcolorbox}
+
+\section{Introduction}\label{sec-intro}
+
+This document is a comprehensive companion to an 8-month Arabic language
+learning journey based on the textbook
+\href{https://attakallum.com/attakallum-online/login}{\textbf{\emph{At-Takallum:
+A Comprehensive Modern Arabic Course}}}.
+
+It serves as a central hub for:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Detailed study notes}\\
+\item
+  \textbf{Thematic and contextual vocabulary lists}\\
+\item
+  \textbf{Practice exercises} for grammar, reading, writing, listening,
+  and speaking\\
+\item
+  \textbf{Supplementary resources} for cultural and religious
+  enrichment\\
+\item
+  \textbf{Tracking overall progression} across all learning levels
+\end{itemize}
+
+The learning journey is divided into three stages, each aligned with a
+CEFR proficiency level and structured around thematic chapters designed
+to gradually build language skills in context.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Elementary Level (A1
+Proficiency)}\label{elementary-level-a1-proficiency}
+
+The \textbf{Elementary Book} consists of 8 foundational chapters focused
+on everyday communication and basic vocabulary:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Greetings and Introductions}\\
+\item
+  \textbf{Family and Relationships}\\
+\item
+  \textbf{School and Studies}\\
+\item
+  \textbf{Food and Eating Habits}\\
+\item
+  \textbf{Telling Time and Discussing Prices}\\
+\item
+  \textbf{Holidays and Vacations}\\
+\item
+  \textbf{Daily Routines and Activities}\\
+\item
+  \textbf{Weather and Clothing}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Pre-Intermediate Level (B1
+Proficiency)}\label{pre-intermediate-level-b1-proficiency}
+
+The \textbf{Pre-Intermediate Book} continues with more complex sentence
+structures and a wider vocabulary, divided into the following 8 thematic
+units:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Exploring Cairo and Transportation}\\
+\item
+  \textbf{Housing and Daily Living}\\
+\item
+  \textbf{Health and Well-being}\\
+\item
+  \textbf{Shopping and Markets}\\
+\item
+  \textbf{Jobs and the Workplace}\\
+\item
+  \textbf{Tourist Attractions and Historical Sites}\\
+\item
+  \textbf{Sports and Hobbies}\\
+\item
+  \textbf{Past Memories and Storytelling}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Intermediate Level (B2
+Proficiency)}\label{intermediate-level-b2-proficiency}
+
+The \textbf{Intermediate Book} builds toward fluency, focusing on
+abstract topics and culturally rich discussions:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Describing People and Character Traits}\\
+\item
+  \textbf{Religious Celebrations and Eid Traditions}\\
+\item
+  \textbf{Humor and Storytelling}\\
+\item
+  \textbf{Nature and Environmental Issues}\\
+\item
+  \textbf{World Cultures and Social Traditions}\\
+\item
+  \textbf{Arabic Proverbs, Sayings, and Wisdom}\\
+\item
+  \textbf{Famous Historical Figures}\\
+\item
+  \textbf{The Role of Education and Learning}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Materials and Resources}\label{materials-and-resources}
+
+\begin{itemize}
+\tightlist
+\item
+  Supplementary notes, vocabulary decks, and grammar exercises\\
+\item
+  Cultural and religious content to enrich learning context
+\item
+  Translation practice using classical texts
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-important-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Note}, opacityback=0, breakable, colbacktitle=quarto-callout-important-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+This document will evolve over time to reflect ongoing progress,
+feedback, and new materials. Contributions and suggestions are welcome.
+
+\end{tcolorbox}
+
+\section{التَّعَارُف -- Introducing Yourself}\label{unit1-intro}
+
+Making a great first impression starts with the basics: greetings,
+names, nationalities, and simple questions. This unit introduces
+essential vocabulary and expressions for everyday social interactions
+--- from saying hello to telling someone where you're from.
+
+Use the table below to familiarize yourself with the most common phrases
+used in first encounters.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-tip-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Watch This!}, opacityback=0, breakable, colbacktitle=quarto-callout-tip-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+Here's a helpful video that provides some pretty solid techniques for
+memorizing new vocabulary:\\
+\href{https://www.youtube.com/watch?v=TZYOScgVc3g&t}{7 Insanely
+Effective Techniques to Memorize Vocabulary in a New Language}
+
+\end{tcolorbox}
+
+\subsection{Key Vocabulary and
+Phrases}\label{key-vocabulary-and-phrases}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.4375}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5625}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+English
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Arabic
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Peace be upon you! & السَّلَامُ عَلَيْكُمْ \\
+And peace be upon you! & وَعَلَيْكُمُ السَّلَامُ \\
+Good morning! & صَبَاحُ الْخَيْرِ / صَبَاحُ النُّورِ \\
+How are you? & كَيْفَ حَالُكَ؟ / كَيْفَ الْحَالُ؟ \\
+Fine, al-Hamdulillah & بِخَيْر / بِخَيْر وَالْحَمْدُ لِلّٰه \\
+Welcome! & أَهْلًا وَسَهْلًا / مَرْحَبًا \\
+Welcome to you & أَهْلًا بِكَ / مَرْحَبًا بِكَ \\
+What is your name? & مَا اسْمُكَ؟ \\
+My name is \ldots{} & اِسْمِي \ldots{} \\
+Where are you from? & مِنْ أَيْنَ أَنْتَ؟ \\
+I am Egyptian & أَنَا مِصْرِيٌّ \\
+I am from Egypt & أَنَا مِنْ مِصْرَ \\
+Good evening! & مَسَاءُ الْخَيْرِ / مَسَاءُ النُّورِ \\
+Nice to meet you & تَشَرَّفْنَا / فُرْصَة طَيِّبَة / سَعِيدَة \\
+Goodbye / Farewell & فِي أَمَانِ اللّٰه / مَعَ السَّلَامَة / إِلَى اللِّقَاءِ \\
+Job / Profession / Work & وَظِيفَة / مِهْنَة / عَمَل \\
+Student & طَالِب / تِلْمِيذ \\
+Teacher & مُعَلِّم / مُدَرِّس / أُسْتَاذ \\
+Translator & مُتَرْجِم \\
+Worker / Laborer & عَامِل \\
+Friend / Colleague & صَدِيقَة / زَمِيلَة \\
+Carpenter & نَجَّار \\
+Retired & مُتَقَاعِد \\
+Journalist & صَحَفِيّ \\
+Accountant & مُحَاسِب \\
+Mobile phone & هَاتِف مَحْمُول \\
+Landline phone & هَاتِف ثَابِت / أَرْضِي \\
+Email & بَرِيد إِلِكْتِرُونِي \\
+Address & عُنْوَان \\
+Unemployed & عَاطِل \\
+He works & يَعْمَلُ \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Try This!}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+Try translating the following English phrases into Arabic using only the
+vocabulary from Chapter 1.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  ``My name is \ldots{} and I am from \ldots{}''
+\item
+  ``What is your name {[}masculine/feminine{]}?''
+\item
+  ``I am Egyptian.''
+\item
+  ``I am from Egypt.''
+\item
+  ``Where are you from?''
+\item
+  ``What is your profession?''
+\item
+  ``I am a teacher.''
+\item
+  ``I am fine, thanks.''
+\item
+  ``Good morning!''
+\item
+  ``Goodbye! See you later!''
+\end{enumerate}
+
+\end{tcolorbox}
+
+\subsection{Singular Pronouns}\label{singular-pronouns}
+
+In Arabic, personal pronouns change depending on gender and number. Here
+are the \textbf{singular pronouns}:
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+English & Arabic & Pronunciation \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+I & أَنَا & \emph{anā} \\
+You (masc.) & أَنْتَ & \emph{anta} \\
+You (fem.) & أَنْتِ & \emph{anti} \\
+He & هُوَ & \emph{huwa} \\
+She & هِيَ & \emph{hiya} \\
+\end{longtable}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-tip-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Possessive Endings Tip!}, opacityback=0, breakable, colbacktitle=quarto-callout-tip-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+To express \textbf{possession} (like \emph{my book}, \emph{your phone},
+\emph{his teacher}), Arabic uses \textbf{suffixes} attached to the end
+of the noun. Here are the common \textbf{possessive endings} for
+singular pronouns:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{ي} (ـي) for \textbf{أَنَا} → \emph{كِتَابِي} (my book)\\
+\item
+  \textbf{كَ} (ـكَ) for \textbf{أَنْتَ} → \emph{كِتَابُكَ} (your book, masc.)\\
+\item
+  \textbf{كِ} (ـكِ) for \textbf{أَنْتِ} → \emph{كِتَابُكِ} (your book, fem.)\\
+\item
+  \textbf{هُ} (ـهُ) for \textbf{هُوَ} → \emph{كِتَابُهُ} (his book)\\
+\item
+  \textbf{هَا} (ـهَا) for \textbf{هِيَ} → \emph{كِتَابُهَا} (her book)
+\end{itemize}
+
+These suffixes are directly attached to nouns to show ownership.
+
+\end{tcolorbox}
+
+\subsection{Nationalities}\label{nationalities}
+
+Nationalities in Arabic are based on the name of the country and are
+modified by adding masculine or feminine endings. These follow regular
+patterns and are important for introducing yourself or describing
+others.
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-tip-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Country Roots \& Nationalities}, opacityback=0, breakable, colbacktitle=quarto-callout-tip-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Country & Root (Base Word) & Nationality (Masc. / Fem.) \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Egypt & مِصْر & مِصْرِيّ / مِصْرِيَّة \\
+Somalia & الصُّومَال & صُومَالِيّ / صُومَالِيَّة \\
+America & أَمْرِيكَا & أَمْرِيكِيّ / أَمْرِيكِيَّة \\
+\end{longtable}
+
+\subsubsection{Examples:}\label{examples}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{أَنَا مِصْرِيّ} -- I am Egyptian (male)\\
+\item
+  \textbf{أَنَا مِصْرِيَّة} -- I am Egyptian (female)\\
+\item
+  \textbf{هُوَ صُومَالِيّ} -- He is Somali\\
+\item
+  \textbf{هِيَ أَمْرِيكِيَّة} -- She is American
+\end{itemize}
+
+\begin{quote}
+Note: The masculine form usually ends in \textbf{ـِيّ}, and the feminine
+form ends in \textbf{ـِيَّة}.
+\end{quote}
+
+\end{tcolorbox}
+
+\subsubsection{Practice Questions}\label{practice-questions}
+
+Try answering the following using the correct nationality form:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  مَا جِنْسِيَّتُكَ؟ (What is your nationality? --- to a male)\\
+\item
+  مَا جِنْسِيَّتُكِ؟ (What is your nationality? --- to a female)\\
+\item
+  Translate:
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    I am American (female)\\
+  \item
+    He is Egyptian\\
+  \item
+    She is Somali
+  \end{enumerate}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-caution-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Click to Practice a Conversation}, opacityback=0, breakable, colbacktitle=quarto-callout-caution-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\subsection{Practice: A Conversation Between Two
+Friends}\label{practice-a-conversation-between-two-friends}
+
+\textbf{Friend 1:} Hello!\\
+\textbf{Friend 2:} Hello and welcome!\\
+\textbf{Friend 1:} How are you?\\
+\textbf{Friend 2:} I'm fine, thank God. And you?\\
+\textbf{Friend 1:} I'm fine. What is your name?\\
+\textbf{Friend 2:} My name is Ahmed. What is your name?\\
+\textbf{Friend 1:} My name is Sarah. Where are you from?\\
+\textbf{Friend 2:} I am from Egypt. And you?\\
+\textbf{Friend 1:} I am from America. What is your job?\\
+\textbf{Friend 2:} I am a teacher. And you?\\
+\textbf{Friend 1:} I am a student. What is your address?\\
+\textbf{Friend 2:} My address is 12 Cairo Street. What is your
+address?\\
+\textbf{Friend 1:} My address is 8 Nile Avenue. What is your phone
+number?\\
+\textbf{Friend 2:} My mobile number is 010-1234-5678. What is your
+number?\\
+\textbf{Friend 1:} My phone number is 011-9876-5432. What is your
+email?\\
+\textbf{Friend 2:} My email is ahmed@gmail.com. And yours?\\
+\textbf{Friend 1:} My email is sarah@email.com.\\
+\textbf{Friend 2:} Nice to meet you!\\
+\textbf{Friend 1:} Nice to meet you too!
+
+\end{tcolorbox}
+
+\subsection{The Present Simple Tense With Singular
+Pronouns}\label{the-present-simple-tense-with-singular-pronouns}
+
+In Arabic, verbs in the present tense are based on three-letter roots.
+Let's start with the verb \textbf{عَمِلَ} (to work) and see how it changes
+with singular pronouns in the \textbf{present tense}.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.1548}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.2381}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.6071}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Pronoun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Present Tense Verb
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Example Sentence
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+I & أَعْمَلُ & أَنَا أَعْمَلُ مُتَرْجِمًا -- I work as a translator \\
+You (m) & تَعْمَلُ & أَنْتَ تَعْمَلُ مُتَرْجِمًا -- You (m) work as a translator \\
+You (f) & تَعْمَلِينَ & أَنْتِ تَعْمَلِينَ مُتَرْجِمَةً -- You (f) work as a translator \\
+He & يَعْمَلُ & هُوَ يَعْمَلُ مُتَرْجِمًا -- He works as a translator \\
+She & تَعْمَلُ & هِيَ تَعْمَلُ مُتَرْجِمَةً -- She works as a translator \\
+\end{longtable}
+
+\begin{quote}
+Note: Feminine job titles and pronouns require feminine verb forms and
+endings, like \textbf{ـينَ} and \textbf{ـة}.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-caution-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Click to Practice with More Root Verbs}, opacityback=0, breakable, colbacktitle=quarto-callout-caution-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\subsubsection{Practice with These Root
+Verbs:}\label{practice-with-these-root-verbs}
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Verb Root & Meaning & Present Tense (He) \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+عَمِلَ & to work & يَعْمَلُ \\
+كَتَبَ & to write & يَكْتُبُ \\
+قَرَأَ & to read & يَقْرَأُ \\
+نَظَرَ & to look & يَنْظُرُ \\
+فَهِمَ & to understand & يَفْهَمُ \\
+\end{longtable}
+
+\subsubsection{Practice Prompts:}\label{practice-prompts}
+
+Try writing these for each singular pronoun (\textbf{أنا، أنتَ، أنتِ، هو،
+هي}):
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  ``\_\_\_ writes an email.''\\
+\item
+  ``\_\_\_ reads the book.''\\
+\item
+  ``\_\_\_ looks at the address.''\\
+\item
+  ``\_\_\_ understands the lesson.''\\
+\item
+  ``\_\_\_ works as a teacher.''
+\end{enumerate}
+
+Mix masculine and feminine forms!
+
+\end{tcolorbox}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Quick Review Section}\label{quick-review-section}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Review Checklist}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+Before moving on, make sure you can:
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Introduce yourself in Arabic\\
+\item[$\square$]
+  Ask and answer where someone is from\\
+\item[$\square$]
+  Use singular pronouns correctly\\
+\item[$\square$]
+  Identify masculine and feminine nationalities\\
+\item[$\square$]
+  Form simple present-tense sentences with key verbs\\
+\item[$\square$]
+  Ask for basic personal info: name, address, phone, job
+\end{itemize}
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-tip-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{A Scholar's Reflection}, opacityback=0, breakable, colbacktitle=quarto-callout-tip-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\textbf{``اللغة العربية هي من أغنى اللغات وأوسعها، وهي بحرٌ لا ساحل
+له.''}\\
+\emph{``The Arabic language is among the richest and most expansive
+languages; it is a sea without a shore.''}\\
+--- \textbf{Ibn Jinnī}, famed linguist and grammarian
+
+\end{tcolorbox}
+
+\section{الْعَائِلَة -- The Family}\label{unit2-family}
+
+Family is the foundation of many conversations in Arabic. In this unit,
+you'll learn how to introduce your family members, describe
+relationships, and talk about where people live and what they do.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Key Vocabulary and
+Phrases}\label{key-vocabulary-and-phrases-1}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+English & Arabic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Family / Household & أُسْرَة / عَائِلَة \\
+Grandfather & جَدّ \\
+Grandmother & جَدَّة \\
+Father / Parent & أَب / وَالِد \\
+Mother / Parent & أُمّ / وَالِدَة \\
+Brother & أَخ \\
+Sister & أُخْت \\
+Son / Daughter & اِبْن / اِبْنَة \\
+Boy / Girl & وَلَد / بِنْت \\
+Grandson / Granddaughter & حَفِيد / حَفِيدَة \\
+Twin brother & أَخ تَوْأَم \\
+Paternal uncle & عَمّ \\
+Maternal uncle & خَال \\
+Paternal aunt & عَمَّة \\
+Maternal aunt & خَالَة \\
+Husband / Wife & زَوْج / زَوْجَة \\
+Relative / Kin & قَرِيب / أَقَارِب \\
+Father-in-law / Mother-in-law & حَم / حَمَاة \\
+Married & مُتَزَوِّج / مُتَزَوِّجَة \\
+Fiancé / Fiancée & خَاطِب / مَخْطُوبَة \\
+Bachelor (unmarried) & عَزَب \\
+Miss / Young lady & آنِسَة \\
+Surname / Title & لَقَب / أَلْقَاب \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Talking About Daily Life}\label{talking-about-daily-life}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+English & Arabic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+He lives in\ldots{} & يَسْكُنُ فِي\ldots{} \\
+She studies & تَدْرُس \\
+He loves / likes & يُحِبُّ \\
+He comments & يُعَلِّق \\
+He receives / meets & يَسْتَقْبِل \\
+He prepares / makes ready & يُرَتِّب \\
+She cooks & تَطْبُخ \\
+He sits / sits down & يَجْلِس \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Practice Phrases}\label{practice-phrases}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Try This!}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+Translate the following into Arabic using the vocabulary above:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  My mother and father live in Cairo.
+\item
+  He is my maternal uncle.
+\item
+  My sister is a student.
+\item
+  She loves her grandmother.
+\item
+  I am married.
+\item
+  He is a bachelor.
+\item
+  This is my wife and these are our children.
+\item
+  Where does your grandfather live?
+\item
+  She studies in the university.
+\item
+  My aunt (paternal) cooks delicious food.
+\end{enumerate}
+
+\end{tcolorbox}
+
+\subsection{Special Occasions \& Home
+Life}\label{special-occasions-home-life}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+English & Arabic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Bride / Bridegroom & عَرُوس / عَرِيس \\
+Food & طَعَام \\
+Road / Street & طَرِيق \\
+Decoration & زِينَة \\
+Guests & ضُيُوف / ضَيْف \\
+Salon / Reception Room & صَالُون \\
+Furniture & أَثَاث \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-caution-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Click to Practice a Dialogue}, opacityback=0, breakable, colbacktitle=quarto-callout-caution-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\subsection{Practice: Talking About
+Family}\label{practice-talking-about-family}
+
+\textbf{Ahmed:} Hello! Who is this?\\
+\textbf{Fatimah:} This is my father and mother.\\
+\textbf{Ahmed:} What is your father's name?\\
+\textbf{Fatimah:} His name is Yusuf.\\
+\textbf{Ahmed:} Does he work?\\
+\textbf{Fatimah:} Yes, he works as a teacher.\\
+\textbf{Ahmed:} And your mother?\\
+\textbf{Fatimah:} She cooks and takes care of the house.\\
+\textbf{Ahmed:} Do you have any siblings?\\
+\textbf{Fatimah:} Yes, I have one brother and two sisters.\\
+\textbf{Ahmed:} Where do you live?\\
+\textbf{Fatimah:} We live in Tripoli.
+
+\end{tcolorbox}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Verb Practice With the Family
+Theme}\label{verb-practice-with-the-family-theme}
+
+Try conjugating and writing present-tense sentences using these verbs:
+\textbf{يَسْكُن، يُحِب، يُرَتِّب، تَدْرُس، تَطْبُخ}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Pronoun & Example Verb + Family Context \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+أَنَا & أَنَا أُحِبُ جَدَّتِي -- I love my grandmother \\
+أَنْتَ & أَنْتَ تَسْكُنُ مَعَ أُسْرَتِكَ -- You live with your family \\
+أَنْتِ & أَنْتِ تَدْرُسِينَ فِي الْجَامِعَة -- You (f) study at the university \\
+هُوَ & هُوَ يُرَتِّبُ الْغُرْفَة -- He arranges the room \\
+هِيَ & هِيَ تَطْبُخُ الطَّعَام -- She cooks the food \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Review Checklist}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Identify and name family members\\
+\item[$\square$]
+  Use verbs in present tense to describe family life\\
+\item[$\square$]
+  Talk about marital status and relatives\\
+\item[$\square$]
+  Describe who lives where\\
+\item[$\square$]
+  Use feminine and masculine forms correctly
+\end{itemize}
+
+\end{tcolorbox}
+
+\section{الدِّرَاسَة -- Studying}\label{unit3-studying}
+
+Education is a major part of life across cultures, and in Arabic,
+knowing how to talk about school, subjects, and study routines helps you
+connect and express yourself in academic and personal settings.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Key Vocabulary and
+Phrases}\label{key-vocabulary-and-phrases-2}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+English & Arabic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Class, grade & صَفّ \\
+Display screen & شَاشَةُ عَرْض \\
+Eraser & مِمْحَاة \\
+Wastebasket & سَلَّةُ مُهْمَلَات \\
+School & مَدْرَسَة \\
+Bookshelf & مَكْتَبَة \\
+Dictionary & قَامُوس / مُعْجَم \\
+Absent / Present & غَائِب × حَاضِر \\
+Page & صَفْحَة \\
+Behind / At the back & خَلْف / وَرَاء \\
+Between & بَيْن \\
+Beside & بِجَانِب \\
+Under & تَحْت / أَسْفَل \\
+To the right & عَنْ يَمِين \\
+To the left & عَنْ يَسَار \\
+University & جَامِعَة \\
+Faculty & كُلِّيَّة \\
+Good / Bad & جَيِّد × سَيِّئ \\
+Arabic language & اللُّغَة العَرَبِيَّة \\
+English language & اللُّغَة الإِنْجِلِيزِيَّة \\
+Vacation / Holiday & عُطْلَة \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Verbs and Phrases for the
+Classroom}\label{verbs-and-phrases-for-the-classroom}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+English & Arabic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+He studies & يَدْرُس \\
+He thinks & يُفَكِّر \\
+He guesses & يَظُنّ \\
+He starts & يَبْدَأ \\
+He finishes & يَنْتَهِي \\
+He opens / He closes & يَفْتَح × يُغْلِق \\
+Raise / Lower & اِرْفَع × اِخْفِض \\
+Take / Here you go & خُذ / تَفَضَّل \\
+Let me have & هَات \\
+Lesson / Lecture & دَرْس / مُحَاضَرَة \\
+Course / Subject & مَادَّة (ج) مَوَادّ \\
+Idea / Opinion & فِكْرَة / رَأْي \\
+Psychology & عِلْم النَّفْس \\
+Jurisprudence & الْفِقْه \\
+Qur'an explanation & التَّفْسِير \\
+Hadith & الْحَدِيث \\
+Recitation rules & التَّجْوِيد \\
+History & التَّارِيخ \\
+Geography & الْجُغْرَافْيَا \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Practice Phrases}\label{practice-phrases-1}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Try This!}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+Translate the following into Arabic using the vocabulary above:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  I study psychology and jurisprudence.\\
+\item
+  The dictionary is beside the bookshelf.\\
+\item
+  Open the book to page ten.\\
+\item
+  She is present today.\\
+\item
+  My course is very interesting.\\
+\item
+  He finishes his lesson at two o'clock.\\
+\item
+  The subject is difficult but useful.\\
+\item
+  Where is the eraser?\\
+\item
+  We are studying the Arabic language.\\
+\item
+  The classroom is to the right.
+\end{enumerate}
+
+\end{tcolorbox}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-caution-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Click to Practice a Dialogue}, opacityback=0, breakable, colbacktitle=quarto-callout-caution-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\subsection{Practice: In the Classroom}\label{practice-in-the-classroom}
+
+\textbf{Zayd:} Are you studying today?\\
+\textbf{Nour:} Yes, I am studying history and psychology.\\
+\textbf{Zayd:} Is the teacher present?\\
+\textbf{Nour:} No, he is absent today.\\
+\textbf{Zayd:} Where is your book?\\
+\textbf{Nour:} It's on the bookshelf, beside the dictionary.\\
+\textbf{Zayd:} Do you like this course?\\
+\textbf{Nour:} Yes, it's good and interesting.
+
+\end{tcolorbox}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Verb Practice With the Studying
+Theme}\label{verb-practice-with-the-studying-theme}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.1831}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.8169}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Pronoun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Example Verb + Classroom Context
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+أَنَا & أَنَا أَدْرُسُ التَّفْسِير -- I study tafsīr \\
+أَنْتَ & أَنْتَ تَفْتَحُ الكِتَاب -- You open the book \\
+أَنْتِ & أَنْتِ تَفْهَمِينَ الدَّرْس -- You (f) understand the lesson \\
+هُوَ & هُوَ يَبْدَأُ الدَّرْس -- He starts the lesson \\
+هِيَ & هِيَ تُفَكِّرُ فِي الْجَوَاب -- She is thinking of the answer \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-tip-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{A Scholar's Reflection}, opacityback=0, breakable, colbacktitle=quarto-callout-tip-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\textbf{``أَخي لَنْ تَنَالَ الْعِلْمَ إِلَّا بِسِتَّةٍ\\
+سَأُنْبِيكَ عَنْ تَفْصِيلِهَا بِبَيَانِ\\
+ذَكَاءٍ، وَحِرْصٍ، وَاجْتِهَادٍ، وَبُلْغَةٍ\\
+وَصُحْبَةِ أُسْتَاذٍ، وَطُولِ زَمَانِ''}\\
+\emph{``My brother, you will never attain knowledge except with six
+things.\\
+I will tell you about them clearly:\\
+intelligence, eagerness, effort, provision,\\
+companionship of a teacher, and a long time.''}\\
+--- \textbf{Imām al-Shāfiʿī}, on the path to knowledge
+
+\end{tcolorbox}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Review Checklist}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Master classroom objects and directions\\
+\item[$\square$]
+  Use present tense verbs in context\\
+\item[$\square$]
+  Build common study-related phrases\\
+\item[$\square$]
+  Practice dialogue with school vocabulary
+\end{itemize}
+
+\end{tcolorbox}
+
+\section{الطَّعَام -- Food and Meals}\label{unit4-food}
+
+In this chapter, we explore everything related to food and meals in
+Arabic --- from ordering at a restaurant to naming common foods and
+drinks. You'll also practice useful verbs and sentence structures for
+daily eating routines.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-tip-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Watch This!}, opacityback=0, breakable, colbacktitle=quarto-callout-tip-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+Need help remembering all this new vocabulary?\\
+Check out this video:\\
+\href{https://www.youtube.com/watch?v=TZYOScgVc3g&t}{How to Memorize
+Arabic Vocabulary Fast!}
+
+\end{tcolorbox}
+
+\subsection{Key Vocabulary and
+Phrases}\label{key-vocabulary-and-phrases-3}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+English & Arabic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Meal & وَجْبَة (ج) وَجَبَات \\
+Breakfast & الْفَطُور \\
+Lunch & الغَدَاء \\
+Dinner & العَشَاء \\
+Full, satisfied & شَبْعَان \\
+Hungry & جَائِع \\
+Thirsty & عَطْشَان / ظَمْآن \\
+Sated (not thirsty) & رَيَّان \\
+Before / After & قَبْل / بَعْد \\
+Hot / Cold & سَاخِن / بَارِد \\
+Fruits & فَاكِهَة (ج) فَوَاكِه \\
+Vegetables & خُضَار \\
+Chicken & دَجَاجَة (ج) دَجَاج \\
+Fish & سَمَك \\
+Bread & خُبْز \\
+Meat & لَحْم (ج) لُحُوم \\
+Rice & أُرْز \\
+Eggs & بَيْض \\
+Cheese & جُبْن \\
+Yoghurt & زَبَادِي \\
+Pickles & مُخَلَّل / طُرْشِي \\
+Honey & عَسَل \\
+Dessert & حَلْوَى \\
+Falafel & فَلاَفِل / طَعْمِيَّة \\
+Tea & شَاي \\
+Coffee & قَهْوَة \\
+Juice & عَصِير (ج) عَصَائِر \\
+Milk & لَبَن / حَلِيب \\
+Water & مَاء (ج) مِيَاه \\
+Sugar & سُكَّر \\
+Jam & مُرَبَّى \\
+Butter & زُبْدَة \\
+Olives & زَيْتُون \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{At the Restaurant}\label{at-the-restaurant}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+English & Arabic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Restaurant & مَطْعَم \\
+Waiter & نَادِل / عَامِل الْمَطْعَم \\
+Menu & قَائِمَة الطَّعَام \\
+Bill / Check & الحِسَاب \\
+Change & البَاقِي \\
+Customer & زَبُون \\
+Reserved / Vacant & مَحْجُوز / خَالٍ \\
+Table & مَائِدَة / طَاوِلَة \\
+Glass / Cup & كُوب / فِنْجَان / كَأْس \\
+Plate & طَبَق \\
+Spoon / Fork / Knife & مِلْعَقَة / شَوْكَة / سِكِّين \\
+Napkin & مِنْدِيل وَرَقِي \\
+Water bottle & زُجَاجَة مَاء \\
+Carbonated water & مِيَاه غَازِيَّة \\
+Lemon juice & عَصِير لَيْمُون \\
+Fried potatoes & بَطَاطِس مَقْلِيَّة \\
+Kebab / Kofta & كَبَاب مَشْوِي / كُفْتَة \\
+Shrimp & جَمْبَرِي \\
+Soup & حَسَاء \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Try This!}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+Translate the following using the vocabulary above:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  I want a chicken sandwich.\\
+\item
+  I am thirsty --- I want lemon juice.\\
+\item
+  Where is the restaurant?\\
+\item
+  The coffee is hot.\\
+\item
+  The salad is cold.
+\end{enumerate}
+
+\end{tcolorbox}
+
+\subsection{Useful Verbs with Food}\label{useful-verbs-with-food}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Arabic Verb & English \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+يَأْكُل & He eats \\
+يَتَنَاوَل & He has / consumes (a meal) \\
+يَشْرَب & He drinks \\
+يُرِيد & He wants \\
+يُنَادِي & He calls (the waiter) \\
+تَطْلُب & You order / request \\
+\end{longtable}
+
+\subsubsection{Example Sentences:}\label{example-sentences}
+
+\begin{itemize}
+\item
+  أَنَا أَتَنَاوَلُ الْفَطُورَ فِي السَّاعَةِ السَّابِعَةِ.\\
+  \emph{I eat breakfast at 7:00.}
+\item
+  هُوَ يَشْرَبُ الشَّايَ وَالْقَهْوَةَ.\\
+  \emph{He drinks tea and coffee.}
+\item
+  نُرِيدُ قَائِمَةَ الطَّعَامِ، مِنْ فَضْلِكَ.\\
+  \emph{We would like the menu, please.}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-caution-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-caution-color}{\faFire}\hspace{0.5em}{Click to Practice a Conversation}, opacityback=0, breakable, colbacktitle=quarto-callout-caution-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\subsection{Dialogue: At the
+Restaurant}\label{dialogue-at-the-restaurant}
+
+\textbf{Waiter:} Welcome!\\
+\textbf{Customer:} Thank you. Is this table free?\\
+\textbf{Waiter:} No, it's reserved. But this one is free.\\
+\textbf{Customer:} Thank you. Can I see the menu?\\
+\textbf{Waiter:} Of course. Here you go.\\
+\textbf{Customer:} I want grilled fish and lemon juice.\\
+\textbf{Waiter:} Anything else?\\
+\textbf{Customer:} No, thank you.\\
+\textbf{Waiter:} The bill, sir?\\
+\textbf{Customer:} Yes, here you go. Keep the change.\\
+\textbf{Waiter:} Thank you very much!
+
+\end{tcolorbox}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Verb Practice with Singular
+Pronouns}\label{verb-practice-with-singular-pronouns}
+
+Let's look at \textbf{يَأْكُلُ} (he eats) and \textbf{يَشْرَبُ} (he drinks)
+across the singular pronouns:
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Pronoun & Eat = يَأْكُل & Drink = يَشْرَب \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+أَنَا & آكُلُ & أَشْرَبُ \\
+أَنْتَ & تَأْكُلُ & تَشْرَبُ \\
+أَنْتِ & تَأْكُلِينَ & تَشْرَبِينَ \\
+هُوَ & يَأْكُلُ & يَشْرَبُ \\
+هِيَ & تَأْكُلُ & تَشْرَبُ \\
+\end{longtable}
+
+\begin{quote}
+Note: These verbs are irregular in the past tense but regular in the
+present.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Quick Questions}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+Try answering in Arabic:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  مَاذَا تُرِيدُ لِلغَدَاءِ؟ -- What do you want for lunch?\\
+\item
+  هَلْ تُرِيدُ مَاءً أَوْ عَصِيرًا؟ -- Do you want water or juice?\\
+\item
+  أَيْنَ الْمَطْعَم؟ -- Where is the restaurant?\\
+\item
+  مَا هَذِهِ الْوَجْبَة؟ -- What is this meal?
+\end{enumerate}
+
+\end{tcolorbox}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-tip-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{A Scholar's Reflection}, opacityback=0, breakable, colbacktitle=quarto-callout-tip-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\textbf{قَالَ الإِمَامُ الشَّافِعِيُّ:}\\
+\emph{``مَا شَبِعْتُ مُنْذُ سِتَّةَ عَشَرَ سَنَةً، لِأَنَّ الشِّبَعَ يُثَقِّلُ الْبَدَنَ، وَيُقَسِّي الْقَلْبَ،
+وَيُزِيلُ الْفِطْنَةَ، وَيَجْلِبُ النُّعَاسَ، وَيُضْعِفُ صَاحِبَهُ عَنِ الْعِبَادَةِ.''}
+
+\emph{``I have not eaten to fullness for sixteen years, because satiety
+burdens the body, hardens the heart, removes sharpness of mind, brings
+on sleep, and weakens one from worship.''}
+
+--- \textbf{Imām al-Shāfiʿī}
+
+\end{tcolorbox}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Quick Review Checklist}\label{quick-review-checklist}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Review Goals}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Use common food vocabulary\\
+\item[$\square$]
+  Order at a restaurant in Arabic\\
+\item[$\square$]
+  Conjugate ``eat'' and ``drink'' with pronouns\\
+\item[$\square$]
+  Ask for the bill, the menu, or water\\
+\item[$\square$]
+  Know useful utensils and table items\\
+\item[$\square$]
+  Practice a restaurant dialogue
+\end{itemize}
+
+\end{tcolorbox}
+
+\section{الأوقات والأسعار - Times and
+Prices}\label{ux627ux644ux623ux648ux642ux627ux62a-ux648ux627ux644ux623ux633ux639ux627ux631---times-and-prices}
+
+Time and money shape much of our daily life and planning. In this unit,
+you'll learn how to tell time, understand prices and currency, and talk
+about schedules, appointments, and travel plans---all essential skills
+for navigating everyday situations in Arabic.
+
+\subsection{Key Vocabulary and
+Phrases}\label{key-vocabulary-and-phrases-4}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+English & Arabic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Time, appointed time & مُوْعِد / وَقْت \\
+It's 1 o'clock sharp & الوَاحِدَة تَمَامًا \\
+Fifteen minutes to \ldots{} & إِلَّا رُبْعًا \\
+Twenty minutes to \ldots{} & إِلَّا ثُلْثًا \\
+Half past \ldots{} & وَالنِّصْف \\
+Employee & مُوَظَّف \\
+Ticket & تَذْكِرَة سَفَر \\
+Airline office & مَكْتَب الطَّيَرَان \\
+By day × By night & نَهَارًا × لَيْلًا \\
+Quarter past \ldots{} & وَالرُّبْع \\
+An hour - a minute - a second & سَاعَة - دَقِيقَة - ثَانِيَة \\
+Airport & مَطَار \\
+Plane, airplane & طَائِرَة \\
+Train & قِطَار \\
+Bus & حَافِلَة \\
+Twenty past \ldots{} & وَالثُّلْث \\
+New × Old & جَدِيد × قَدِيم \\
+(She) goes & تَذْهَب \\
+(He) sleeps & يَنَام \\
+(She) arrives at & تَصِلُ \\
+In the morning × In the evening & صَبَاحًا × مَسَاءً \\
+The next × The previous & التَّالِي × السَّابِق \\
+Before noon × In the afternoon & قَبْلَ الظُّهْر × بَعْدَ الظُّهْر \\
+\end{longtable}
+
+\subsubsection{Currency \& Exchange}\label{currency-exchange}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+English & Arabic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Late × Early & مُتَأَخِّر × مُبَكِّر \\
+Exchange office & مَكْتَب الصِّرَافَة \\
+Rate & سِعْر (ج) أَسْعَار \\
+US dollar & دُوْلَار أَمْرِيكِي \\
+Euro & يُورُو \\
+Pound sterling & جُنَيْه إِنْجِلِيزِي \\
+Egyptian pound & جُنَيْه مِصْرِي \\
+Japanese yen & يِن يَابَانِي \\
+Saudi riyal & رِيَال سَعُودِي \\
+UAE dirham & دِرْهَم إِمَارَاتِي \\
+Kuwaiti dinar & دِينَار كُوَيْتِي \\
+Currency & عُمْلَة (ج) عُمْلَات \\
+Money, cash & نُقُود \\
+Turkish lira & لِيرَة تُرْكِيَّة \\
+Change & نُقُود \\
+\end{longtable}
+
+\subsubsection{Banking \& Counting}\label{banking-counting}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+English & Arabic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+(He) exchanges & يُبَدِّل \\
+(He) counts & يَعُدُّ \\
+Bank & بَنْك / مَصْرِف \\
+Central bank & البَنْك المَرْكَزِي \\
+Fifty piasters & نِصْف جُنَيْه \\
+Twenty-five piasters & رُبْع جُنَيْه \\
+\end{longtable}
+
+\subsubsection{Prayer Times}\label{prayer-times}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+English & Arabic \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Prayer Times & مَوَاقِيتُ الصَّلَاة \\
+Adhan & الأَذَان \\
+Dawn prayer & الفَجْر \\
+Sunrise prayer & الشُّرُوق \\
+Noon prayer & الظُّهْر \\
+Afternoon prayer & العَصْر \\
+Sunset prayer & المَغْرِب \\
+Evening prayer & العِشَاء \\
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Translation Practice}\label{translation-practice}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Translate the following into Arabic}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  I go to the airport at one o'clock sharp.
+\item
+  The bus arrives at a quarter past four.
+\item
+  He exchanges money at the bank.
+\item
+  The prayer times are written on the wall.
+\item
+  I sleep at night and go to work in the morning.
+\item
+  The price of the ticket is ten dollars.
+\item
+  I want to buy twenty-five piasters of change.
+\end{enumerate}
+
+\end{tcolorbox}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Practice Conjugation}\label{practice-conjugation}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-tip-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Verb Practice: Conjugate}, opacityback=0, breakable, colbacktitle=quarto-callout-tip-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+Practice conjugating these important verbs across pronouns:
+
+\begin{itemize}
+\tightlist
+\item
+  ذَهَبَ (to go)
+\item
+  نَامَ (to sleep)
+\item
+  وَصَلَ (to arrive)
+\item
+  بَدَّلَ (to exchange)
+\item
+  عَدَّ (to count)
+\end{itemize}
+
+Try writing full sentences using each form.
+
+\end{tcolorbox}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, colframe=quarto-callout-note-color-frame, left=2mm, toptitle=1mm, colback=white, bottomrule=.15mm, arc=.35mm, rightrule=.15mm, bottomtitle=1mm, titlerule=0mm, coltitle=black, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Review Checklist}, opacityback=0, breakable, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, toprule=.15mm]
+
+\begin{itemize}
+\tightlist
+\item[$\square$]
+  Memorized all vocabulary in time, transport, and money
+\item[$\square$]
+  Can tell time using quarter/half/twenty expressions
+\item[$\square$]
+  Know names of prayer times
+\item[$\square$]
+  Can form basic sentences about time and prices
+\item[$\square$]
+  Can conjugate essential verbs from this chapter
+\end{itemize}
+
+\end{tcolorbox}
+
+
+
+
+\end{document}

@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Lisan Project"
+  navbar:
+    background: "#800000"
+    left:
+      - text: "<i class='bi bi-house-door'></i> Home"
+        href: index.qmd
+      - text: "Course Material"
+        href: course-material.qmd
+    right:
+      - icon: github
+        href: https://github.com/LisanProject/arabic-fluency
+        aria-label: GitHub
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toggle: 
+      - light: Light
+        dark: Dark

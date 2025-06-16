@@ -1,0 +1,216 @@
+# التَّعَارُف – Introducing Yourself {#unit1-intro}
+
+Making a great first impression starts with the basics: greetings, names, nationalities, and simple questions. This unit introduces essential vocabulary and expressions for everyday social interactions — from saying hello to telling someone where you're from.
+
+Use the table below to familiarize yourself with the most common phrases used in first encounters.
+
+---
+
+::: {.callout-tip title="Watch This!"}
+Here’s a helpful video that provides some pretty solid techniques for memorizing new vocabulary:  
+[7 Insanely Effective Techniques to Memorize Vocabulary in a New Language](https://www.youtube.com/watch?v=TZYOScgVc3g&t)
+:::
+
+## Key Vocabulary and Phrases
+
+| English                            | Arabic                                      |
+|-----------------------------------|---------------------------------------------|
+| Peace be upon you!                | السَّلَامُ عَلَيْكُمْ                         |
+| And peace be upon you!            | وَعَلَيْكُمُ السَّلَامُ                       |
+| Good morning!                     | صَبَاحُ الْخَيْرِ / صَبَاحُ النُّورِ           |
+| How are you?                      | كَيْفَ حَالُكَ؟ / كَيْفَ الْحَالُ؟            |
+| Fine, al-Hamdulillah              | بِخَيْر / بِخَيْر وَالْحَمْدُ لِلّٰه            |
+| Welcome!                          | أَهْلًا وَسَهْلًا / مَرْحَبًا                 |
+| Welcome to you                   | أَهْلًا بِكَ / مَرْحَبًا بِكَ                  |
+| What is your name?                | مَا اسْمُكَ؟                                  |
+| My name is …                      | اِسْمِي …                                     |
+| Where are you from?              | مِنْ أَيْنَ أَنْتَ؟                            |
+| I am Egyptian                     | أَنَا مِصْرِيٌّ                               |
+| I am from Egypt                   | أَنَا مِنْ مِصْرَ                              |
+| Good evening!                     | مَسَاءُ الْخَيْرِ / مَسَاءُ النُّورِ           |
+| Nice to meet you                  | تَشَرَّفْنَا / فُرْصَة طَيِّبَة / سَعِيدَة     |
+| Goodbye / Farewell                | فِي أَمَانِ اللّٰه / مَعَ السَّلَامَة / إِلَى اللِّقَاءِ |
+| Job / Profession / Work           | وَظِيفَة / مِهْنَة / عَمَل                     |
+| Student                           | طَالِب / تِلْمِيذ                              |
+| Teacher                           | مُعَلِّم / مُدَرِّس / أُسْتَاذ                 |
+| Translator                        | مُتَرْجِم                                     |
+| Worker / Laborer                  | عَامِل                                       |
+| Friend / Colleague                | صَدِيقَة / زَمِيلَة                           |
+| Carpenter                         | نَجَّار                                       |
+| Retired                           | مُتَقَاعِد                                     |
+| Journalist                        | صَحَفِيّ                                      |
+| Accountant                        | مُحَاسِب                                     |
+| Mobile phone                      | هَاتِف مَحْمُول                                |
+| Landline phone                    | هَاتِف ثَابِت / أَرْضِي                        |
+| Email                             | بَرِيد إِلِكْتِرُونِي                           |
+| Address                           | عُنْوَان                                     |
+| Unemployed                        | عَاطِل                                       |
+| He works                          | يَعْمَلُ                                      |
+
+---
+
+::: {.callout-note title="Try This!"}
+
+Try translating the following English phrases into Arabic using only the vocabulary from Chapter 1.
+
+1. "My name is ... and I am from ..."
+2. "What is your name [masculine/feminine]?"
+3. "I am Egyptian."
+4. "I am from Egypt."
+5. "Where are you from?"
+6. "What is your profession?"
+7. "I am a teacher."
+8. "I am fine, thanks."
+9. "Good morning!"
+10. "Goodbye! See you later!"
+:::
+
+
+## Singular Pronouns
+
+In Arabic, personal pronouns change depending on gender and number. Here are the **singular pronouns**:
+
+| English     | Arabic       | Pronunciation |
+|-------------|--------------|----------------|
+| I           | أَنَا        | *anā*          |
+| You (masc.) | أَنْتَ       | *anta*         |
+| You (fem.)  | أَنْتِ       | *anti*         |
+| He          | هُوَ         | *huwa*         |
+| She         | هِيَ         | *hiya*         |
+
+::: {.callout-tip title="Possessive Endings Tip!"}
+To express **possession** (like *my book*, *your phone*, *his teacher*), Arabic uses **suffixes** attached to the end of the noun. Here are the common **possessive endings** for singular pronouns:
+
+- **ي** (ـي) for **أَنَا** → *كِتَابِي* (my book)  
+- **كَ** (ـكَ) for **أَنْتَ** → *كِتَابُكَ* (your book, masc.)  
+- **كِ** (ـكِ) for **أَنْتِ** → *كِتَابُكِ* (your book, fem.)  
+- **هُ** (ـهُ) for **هُوَ** → *كِتَابُهُ* (his book)  
+- **هَا** (ـهَا) for **هِيَ** → *كِتَابُهَا* (her book)
+
+These suffixes are directly attached to nouns to show ownership.
+:::
+
+## Nationalities
+
+Nationalities in Arabic are based on the name of the country and are modified by adding masculine or feminine endings. These follow regular patterns and are important for introducing yourself or describing others.
+
+::: {.callout-tip title="Country Roots & Nationalities"}
+
+| Country     | Root (Base Word) | Nationality (Masc. / Fem.)       |
+|-------------|------------------|----------------------------------|
+| Egypt       | مِصْر            | مِصْرِيّ / مِصْرِيَّة             |
+| Somalia     | الصُّومَال       | صُومَالِيّ / صُومَالِيَّة         |
+| America     | أَمْرِيكَا       | أَمْرِيكِيّ / أَمْرِيكِيَّة       |
+
+### Examples:
+- **أَنَا مِصْرِيّ** – I am Egyptian (male)  
+- **أَنَا مِصْرِيَّة** – I am Egyptian (female)  
+- **هُوَ صُومَالِيّ** – He is Somali  
+- **هِيَ أَمْرِيكِيَّة** – She is American
+
+> Note: The masculine form usually ends in **ـِيّ**, and the feminine form ends in **ـِيَّة**.
+
+:::
+
+### Practice Questions
+
+Try answering the following using the correct nationality form:
+
+1. مَا جِنْسِيَّتُكَ؟ (What is your nationality? — to a male)  
+2. مَا جِنْسِيَّتُكِ؟ (What is your nationality? — to a female)  
+3. Translate:  
+   a. I am American (female)  
+   b. He is Egyptian  
+   c. She is Somali  
+
+---
+
+::: {.callout-caution title="Click to Practice a Conversation" collapse="true"}
+
+## Practice: A Conversation Between Two Friends
+
+**Friend 1:** Hello!  
+**Friend 2:** Hello and welcome!  
+**Friend 1:** How are you?  
+**Friend 2:** I’m fine, thank God. And you?  
+**Friend 1:** I’m fine. What is your name?  
+**Friend 2:** My name is Ahmed. What is your name?  
+**Friend 1:** My name is Sarah. Where are you from?  
+**Friend 2:** I am from Egypt. And you?  
+**Friend 1:** I am from America. What is your job?  
+**Friend 2:** I am a teacher. And you?  
+**Friend 1:** I am a student. What is your address?  
+**Friend 2:** My address is 12 Cairo Street. What is your address?  
+**Friend 1:** My address is 8 Nile Avenue. What is your phone number?  
+**Friend 2:** My mobile number is 010-1234-5678. What is your number?  
+**Friend 1:** My phone number is 011-9876-5432. What is your email?  
+**Friend 2:** My email is ahmed@gmail.com. And yours?  
+**Friend 1:** My email is sarah@email.com.  
+**Friend 2:** Nice to meet you!  
+**Friend 1:** Nice to meet you too!  
+
+:::
+
+## The Present Simple Tense With Singular Pronouns
+
+In Arabic, verbs in the present tense are based on three-letter roots. Let’s start with the verb **عَمِلَ** (to work) and see how it changes with singular pronouns in the **present tense**.
+
+
+| Pronoun     | Present Tense Verb | Example Sentence                                  |
+|-------------|--------------------|---------------------------------------------------|
+| I           | أَعْمَلُ           | أَنَا أَعْمَلُ مُتَرْجِمًا – I work as a translator |
+| You (m)     | تَعْمَلُ           | أَنْتَ تَعْمَلُ مُتَرْجِمًا – You (m) work as a translator |
+| You (f)     | تَعْمَلِينَ         | أَنْتِ تَعْمَلِينَ مُتَرْجِمَةً – You (f) work as a translator |
+| He          | يَعْمَلُ           | هُوَ يَعْمَلُ مُتَرْجِمًا – He works as a translator |
+| She         | تَعْمَلُ           | هِيَ تَعْمَلُ مُتَرْجِمَةً – She works as a translator |
+
+> Note: Feminine job titles and pronouns require feminine verb forms and endings, like **ـينَ** and **ـة**.
+
+---
+
+::: {.callout-caution title="Click to Practice with More Root Verbs" collapse="true"}
+
+### Practice with These Root Verbs:
+
+| Verb Root | Meaning     | Present Tense (He) |
+|-----------|-------------|--------------------|
+| عَمِلَ     | to work     | يَعْمَلُ            |
+| كَتَبَ     | to write    | يَكْتُبُ            |
+| قَرَأَ     | to read     | يَقْرَأُ            |
+| نَظَرَ     | to look     | يَنْظُرُ            |
+| فَهِمَ     | to understand | يَفْهَمُ         |
+
+### Practice Prompts:
+
+Try writing these for each singular pronoun (**أنا، أنتَ، أنتِ، هو، هي**):
+
+1. "___ writes an email."  
+2. "___ reads the book."  
+3. "___ looks at the address."  
+4. "___ understands the lesson."  
+5. "___ works as a teacher."
+
+Mix masculine and feminine forms!
+
+:::
+
+---
+
+## Quick Review Section
+
+::: {.callout-note title="Review Checklist"}
+Before moving on, make sure you can:
+
+- [ ] Introduce yourself in Arabic  
+- [ ] Ask and answer where someone is from  
+- [ ] Use singular pronouns correctly  
+- [ ] Identify masculine and feminine nationalities  
+- [ ] Form simple present-tense sentences with key verbs  
+- [ ] Ask for basic personal info: name, address, phone, job
+:::
+
+::: {.callout-tip title="A Scholar's Reflection"}
+**"اللغة العربية هي من أغنى اللغات وأوسعها، وهي بحرٌ لا ساحل له."**  
+*“The Arabic language is among the richest and most expansive languages; it is a sea without a shore.”*  
+— **Ibn Jinnī**, famed linguist and grammarian
+:::
