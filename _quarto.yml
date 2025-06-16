@@ -21,6 +21,6 @@ format:
     theme:
       light: cosmo
       dark: darkly
-    toggle: 
+    toggle:
       - light: Light
         dark: Dark
